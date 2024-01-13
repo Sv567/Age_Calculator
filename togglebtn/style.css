@@ -1,0 +1,50 @@
+
+* {
+margin:  0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient();
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-tbn {
+    width: 55px;
+    height: 55px;
+    background-color: rgb(0, 0, 120);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+.toogle-icon {
+    background-color: #FFF;
+    width: 140px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0.5rem;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .icon {
+    cursor: pointer;
+    padding: 0px 0.2rem;
+}

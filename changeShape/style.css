@@ -1,0 +1,62 @@
+#circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#btn>button {
+    cursor: pointer;
+}
+
+#shape {
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+#square {
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+
+#circle2 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%
+}
+
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    /* background: black; */
+}
+
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border: 1px solid blue;
+}
